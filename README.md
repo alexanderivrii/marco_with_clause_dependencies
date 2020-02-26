@@ -3,9 +3,9 @@
 This repository contains the source code to find and exploit clause
 dependencies for MUS enumeration.
 
-We are submitting a paper to SAT'2020.
+This is not the most elegant or the most efficient code, and the output is a mess -- you've been warned.
 
-This is not the most elegant or the most efficient code -- you've been warned.
+We are submitting a paper to SAT'2020. So we also include benchmarks and experimental results here.
 
 ---------------------------------------------------------------------------
 
@@ -55,10 +55,10 @@ On the above example, marco_with_restriction will add the clauses
 (-2, 1), (-1, 2), (-4, 3), (4, -3), (-6, 5) and (6, -5)
 to the map-solver in MARCO.
 
-_to compile_:
+__to compile__:
 marco_with_restrictions should be compiled in exactly the same way as marco.
 
-_to use [example]_:
+__to run [example]__:
 *python3 -u marco_with_restrictions/marco.py --print-mcses -T 3600 -s -a -v -v ssa2670-129.cnf*
 
 
@@ -98,13 +98,13 @@ lve_restrict/minisat_*
         -lve-only:  does not analyze restrictions (only necessary and redudant groups)
         -outputs:   name of the simplified output file
 
-    - _To compile_:
+    - __To compile__:
         ./build.sh
 
-    - _To run_:
+    - __To run__:
         lve_restrict/lverestrict <input>.cnf -output=<output>.gcnf -param=<value>
 
-      _Example_:
+      __Example__:
         *lve_restrict/lverestrict tests/ssa2670-129.cnf -lve-only -redundant=1 -output=aaa2*
 ---------------------------------------------------------------------------
 
@@ -139,23 +139,39 @@ bce_restrict:
         -redundant: handling redundant groups (0 - nothing, 1 - remove, 2 - relabel as group-0)
         -eq-only:   only equivalences
 
-    - _to compile_:
+    - __to compile__:
         *./build.sh*
 
-    - _to run_:
+    - __to run__:
         *bce_restrict/bcerestrict <input>.cnf -output <output>.gcnf -param <value>*
 
-      _Example_:
+      __Example__:
         *bce_restrict/bcerestrict tests/ssa2670-129.cnf -bce-only 1 -redundant 1 -output aaa1*
 ---------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------
-## 5. benchmarks
+## 5. benchmarks (used for the paper)
 ---------------------------------------------------------------------------
-cnf: the original 11 benchmarks from the MUS track of the 2011 SAT competition
+Located in benchmarks/
 
-bce: the original 11 benchmrks together with restriction clauses found by bce_restrict
+*cnf*: the original 11 benchmarks from the MUS track of the 2011 SAT competition
 
-lve: the original 11 benchmrks together with restriction clauses found by lve_restrict
+*bce*: the original 11 benchmrks together with restriction clauses found by bce_restrict
+
+*lve*: the original 11 benchmrks together with restriction clauses found by lve_restrict
 
 
+---------------------------------------------------------------------------
+## 5. experimental results (for the paper)
+---------------------------------------------------------------------------
+Located in results/
+
+*bce_output*: output of bce_restrict on benchmarks from *cnf* (i.e. this is how *bce* benchmarks are produced)
+
+*lve_output*: output of lve_restrict on benchmarks from *cnf* (i.e. this is how *lve* benchmarks are produced)
+
+*marco_on_cnf_output*: output of *marco_with_restrictions* when running on benchmarks from *cnf*
+
+*marco_on_bce_output*: output of *marco_with_restrictions* when running on benchmarks from *bce*
+
+*marco_on_lve_output*: output of *marco_with_restrictions* when running on benchmarks from *lve*
