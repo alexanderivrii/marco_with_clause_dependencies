@@ -1,0 +1,34 @@
+Setting output to fpu2-problem.dimacs_16.filtered.cnf.gcnf
+BCE experiment started
+Reading file cnf/fpu2-problem.dimacs_16.filtered.cnf
+RGCNF contains 160145 vars, 548699 clauses, 548700 groups, 0 mcses
+Groups info: 548700 groups, 548699 enabled, 1 disabled
+  --completed in 0.56 sec
+Performing top-level BCE
+  detected 206076 removable clauses and 206076 removable groups
+  --completed in 2.06 sec
+Performing dependency-based BCE
+restriction-cap reached
+  detected 0 necessary groups and 1000001 binary restrictions
+  --completed in 15.32 sec
+Running transitive reduction on binary clauses (initially 1000001 binary clauses)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 512391 variables and 1000001 edges
+  --completed in 0.10 sec
+Computing SCCs
+  have 479059 SCCs total, of which 461363 of size 1, 12367 of size 2, 2721 of size 3, 1448 of size 4, 439 of size 5, 328 of size 6, 12 of size 7, 36 of size 8, 51 of size 9, 294 of size >=10 (and total size 7345)
+  --completed in 0.20 sec
+Shrinking based on SCCs
+Recorded 51028 equivalence clauses
+  scc-reduced graph contains 274179 edges
+  --completed in 0.05 sec
+Performing transitive reduction
+  reduced graph contains 118835 edges (155344 transitive edges removed)
+  --completed in 0.02 sec
+Recorded 169863 total clauses
+Completed transitive reduction (final 169863 binary clauses)
+  --completed in 0.46 sec
+Writing simplified problem to file fpu2-problem.dimacs_16.filtered.cnf.gcnf
+  --completed in 3.14 sec
+BCE experiment finished in 21.74 sec (timed-out: 0)

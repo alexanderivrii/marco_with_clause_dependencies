@@ -1,0 +1,33 @@
+Setting output to minand016.cnf.gcnf
+BCE experiment started
+Reading file cnf/minand016.cnf
+RGCNF contains 1359 vars, 3788 clauses, 3789 groups, 0 mcses
+Groups info: 3789 groups, 3788 enabled, 1 disabled
+  --completed in 0.01 sec
+Performing top-level BCE
+  detected 824 removable clauses and 824 removable groups
+  --completed in 0.00 sec
+Performing dependency-based BCE
+  detected 6 necessary groups and 88660 binary restrictions
+  --completed in 0.12 sec
+Running transitive reduction on binary clauses (initially 88660 binary clauses)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 3785 variables and 88660 edges
+  --completed in 0.00 sec
+Computing SCCs
+  have 3157 SCCs total, of which 2544 of size 1, 606 of size 2, 1 of size 3, 5 of size 4, 0 of size 5, 1 of size 6, 0 of size 7, 0 of size 8, 0 of size 9, 0 of size >=10 (and total size 0)
+  --completed in 0.00 sec
+Shrinking based on SCCs
+Recorded 1241 equivalence clauses
+  scc-reduced graph contains 34854 edges
+  --completed in 0.00 sec
+Performing transitive reduction
+  reduced graph contains 2569 edges (32285 transitive edges removed)
+  --completed in 0.00 sec
+Recorded 3810 total clauses
+Completed transitive reduction (final 3810 binary clauses)
+  --completed in 0.01 sec
+Writing simplified problem to file minand016.cnf.gcnf
+  --completed in 0.04 sec
+BCE experiment finished in 0.18 sec (timed-out: 0)

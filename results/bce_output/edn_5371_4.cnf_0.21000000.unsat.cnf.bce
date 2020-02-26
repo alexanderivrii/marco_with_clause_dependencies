@@ -1,0 +1,34 @@
+Setting output to edn_5371_4.cnf_0.21000000.unsat.cnf.gcnf
+BCE experiment started
+Reading file cnf/edn_5371_4.cnf_0.21000000.unsat.cnf
+RGCNF contains 331377 vars, 962496 clauses, 962497 groups, 0 mcses
+Groups info: 962497 groups, 962496 enabled, 1 disabled
+  --completed in 0.72 sec
+Performing top-level BCE
+  detected 450305 removable clauses and 450305 removable groups
+  --completed in 1.31 sec
+Performing dependency-based BCE
+restriction-cap reached
+  detected 0 necessary groups and 1000001 binary restrictions
+  --completed in 4.27 sec
+Running transitive reduction on binary clauses (initially 1000001 binary clauses)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 962491 variables and 1000001 edges
+  --completed in 0.09 sec
+Computing SCCs
+  have 948481 SCCs total, of which 939522 of size 1, 7432 of size 2, 1017 of size 3, 225 of size 4, 105 of size 5, 9 of size 6, 7 of size 7, 3 of size 8, 9 of size 9, 152 of size >=10 (and total size 3421)
+  --completed in 0.41 sec
+Shrinking based on SCCs
+Recorded 22969 equivalence clauses
+  scc-reduced graph contains 207608 edges
+  --completed in 0.08 sec
+Performing transitive reduction
+  reduced graph contains 40077 edges (167531 transitive edges removed)
+  --completed in 0.04 sec
+Recorded 63046 total clauses
+Completed transitive reduction (final 63046 binary clauses)
+  --completed in 0.75 sec
+Writing simplified problem to file edn_5371_4.cnf_0.21000000.unsat.cnf.gcnf
+  --completed in 4.96 sec
+BCE experiment finished in 12.36 sec (timed-out: 0)

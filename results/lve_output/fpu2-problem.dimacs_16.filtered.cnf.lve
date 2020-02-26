@@ -1,0 +1,39 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+RGCNF contains 160145 vars, 548699 clauses, 548700 groups
+*** After reading solver contains 708844 variables and 548699 clauses
+|  Number of variables:        708844                                         |
+|  Number of clauses:          548699                                         |
+|  Parse time:                   1.18 s                                       |
+*** Calling elimination
+*** Calling eliminate with grow = 0 and clause_lim = 20
+|  Eliminated clauses:        1659099                                         |
+*** After eliminating: 708844 variables, 260368 clauses
+|  Simplification time:          2.11 s                                       |
+|                                                                             |
+*** After extracting labels, have 260368 labeled clauses
+*** We have 0 necessary and 189390 redundant labels
+CURRENT ANALYSIS TIME:   0.35
+*** We have 0 necessary, 189390 redundant, and 548167 binary restriction clauses
+Running transitive reduction on binary clauses (only equivalences = 0)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 547758 variables and 548167 edges
+  --completed in 0.09 sec
+Computing SCCs
+  have 489403 SCCs total, of which 460311 of size 1, 20332 of size 2, 2289 of size 3, 2057 of size 4, 912 of size 5, 1175 of size 6, 626 of size 7, 368 of size 8, 847 of size 9, 486 of size >=10 (and total size 5129)
+  --completed in 0.23 sec
+Shrinking based on SCCs
+Recorded 87447 equivalence clauses
+  scc-reduced graph contains 159622 edges
+  --completed in 0.07 sec
+Performing transitive reduction
+  reduced graph contains 107242 edges (52380 transitive edges removed)
+  --completed in 0.02 sec
+Recorded 194689 total clauses
+FINAL: *** We have 0 necessary, 189390 redundant, and 194689 binary restriction clauses
+TOTAL ANALYSIS TIME:   1.31
+|  Analyze time:          1.46 s                                       |
+==============================[ Writing GCNF ]===============================
+|  Write time:          0.47 s                                       |

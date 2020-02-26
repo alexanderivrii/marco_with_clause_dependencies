@@ -1,0 +1,40 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+RGCNF contains 331377 vars, 962496 clauses, 962497 groups
+*** After reading solver contains 1293873 variables and 962496 clauses
+|  Number of variables:       1293873                                         |
+|  Number of clauses:          962496                                         |
+|  Parse time:                   1.90 s                                       |
+*** Calling elimination
+*** Calling eliminate with grow = 0 and clause_lim = 20
+|  Eliminated clauses:        2789701                                         |
+*** After eliminating: 1293873 variables, 298653 clauses
+|  Simplification time:          4.08 s                                       |
+|                                                                             |
+*** After extracting labels, have 298653 labeled clauses
+*** We have 0 necessary and 437394 redundant labels
+CURRENT ANALYSIS TIME:   0.74
+restriction-cap reached
+*** We have 0 necessary, 437394 redundant, and 1000001 binary restriction clauses
+Running transitive reduction on binary clauses (only equivalences = 0)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 962495 variables and 1000001 edges
+  --completed in 0.18 sec
+Computing SCCs
+  have 863510 SCCs total, of which 782130 of size 1, 70642 of size 2, 7455 of size 3, 1881 of size 4, 590 of size 5, 191 of size 6, 172 of size 7, 160 of size 8, 284 of size 9, 5 of size >=10 (and total size 56)
+  --completed in 0.40 sec
+Shrinking based on SCCs
+Recorded 180365 equivalence clauses
+  scc-reduced graph contains 492530 edges
+  --completed in 0.13 sec
+Performing transitive reduction
+  reduced graph contains 224118 edges (268412 transitive edges removed)
+  --completed in 0.06 sec
+Recorded 404483 total clauses
+FINAL: *** We have 0 necessary, 437394 redundant, and 404483 binary restriction clauses
+TOTAL ANALYSIS TIME:   2.48
+|  Analyze time:          2.70 s                                       |
+==============================[ Writing GCNF ]===============================
+|  Write time:          0.83 s                                       |

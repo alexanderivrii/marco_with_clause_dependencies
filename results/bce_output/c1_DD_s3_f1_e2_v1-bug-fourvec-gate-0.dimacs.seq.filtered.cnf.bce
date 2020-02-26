@@ -1,0 +1,34 @@
+Setting output to c1_DD_s3_f1_e2_v1-bug-fourvec-gate-0.dimacs.seq.filtered.cnf.gcnf
+BCE experiment started
+Reading file cnf/c1_DD_s3_f1_e2_v1-bug-fourvec-gate-0.dimacs.seq.filtered.cnf
+RGCNF contains 391874 vars, 989885 clauses, 989886 groups, 0 mcses
+Groups info: 989886 groups, 989885 enabled, 1 disabled
+  --completed in 0.72 sec
+Performing top-level BCE
+  detected 672709 removable clauses and 672709 removable groups
+  --completed in 1.98 sec
+Performing dependency-based BCE
+restriction-cap reached
+  detected 0 necessary groups and 1000001 binary restrictions
+  --completed in 4.03 sec
+Running transitive reduction on binary clauses (initially 1000001 binary clauses)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 989885 variables and 1000001 edges
+  --completed in 0.15 sec
+Computing SCCs
+  have 941270 SCCs total, of which 900685 of size 1, 34682 of size 2, 4215 of size 3, 1367 of size 4, 272 of size 5, 13 of size 6, 13 of size 7, 15 of size 8, 6 of size 9, 2 of size >=10 (and total size 20)
+  --completed in 0.47 sec
+Shrinking based on SCCs
+Recorded 89200 equivalence clauses
+  scc-reduced graph contains 460857 edges
+  --completed in 0.12 sec
+Performing transitive reduction
+  reduced graph contains 192539 edges (268318 transitive edges removed)
+  --completed in 0.06 sec
+Recorded 281739 total clauses
+Completed transitive reduction (final 281739 binary clauses)
+  --completed in 1.02 sec
+Writing simplified problem to file c1_DD_s3_f1_e2_v1-bug-fourvec-gate-0.dimacs.seq.filtered.cnf.gcnf
+  --completed in 4.84 sec
+BCE experiment finished in 12.95 sec (timed-out: 0)

@@ -1,0 +1,33 @@
+Setting output to barrel2.cnf.gcnf
+BCE experiment started
+Reading file cnf/barrel2.cnf
+RGCNF contains 50 vars, 159 clauses, 160 groups, 0 mcses
+Groups info: 160 groups, 159 enabled, 1 disabled
+  --completed in 0.00 sec
+Performing top-level BCE
+  detected 60 removable clauses and 60 removable groups
+  --completed in 0.00 sec
+Performing dependency-based BCE
+  detected 0 necessary groups and 254 binary restrictions
+  --completed in 0.00 sec
+Running transitive reduction on binary clauses (initially 254 binary clauses)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 160 variables and 254 edges
+  --completed in 0.00 sec
+Computing SCCs
+  have 158 SCCs total, of which 157 of size 1, 0 of size 2, 1 of size 3, 0 of size 4, 0 of size 5, 0 of size 6, 0 of size 7, 0 of size 8, 0 of size 9, 0 of size >=10 (and total size 0)
+  --completed in 0.00 sec
+Shrinking based on SCCs
+Recorded 3 equivalence clauses
+  scc-reduced graph contains 104 edges
+  --completed in 0.00 sec
+Performing transitive reduction
+  reduced graph contains 72 edges (32 transitive edges removed)
+  --completed in 0.00 sec
+Recorded 75 total clauses
+Completed transitive reduction (final 75 binary clauses)
+  --completed in 0.00 sec
+Writing simplified problem to file barrel2.cnf.gcnf
+  --completed in 0.01 sec
+BCE experiment finished in 0.01 sec (timed-out: 0)

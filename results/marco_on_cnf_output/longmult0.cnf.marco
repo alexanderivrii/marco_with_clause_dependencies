@@ -1,0 +1,119 @@
+U (of size 18) 0.119
+C (of size 1) 0.123
+C (of size 1) 0.127
+C (of size 1) 0.130
+C (of size 1) 0.133
+C (of size 1) 0.135
+U (of size 33) 0.144
+C (of size 2) 0.148
+C (of size 2) 0.151
+C (of size 2) 0.154
+C (of size 2) 0.156
+C (of size 2) 0.157
+C (of size 2) 0.159
+C (of size 2) 0.161
+C (of size 2) 0.163
+C (of size 2) 0.164
+C (of size 2) 0.166
+C (of size 2) 0.168
+C (of size 2) 0.170
+C (of size 2) 0.172
+C (of size 2) 0.173
+C (of size 2) 0.175
+C (of size 1) 0.177
+C (of size 1) 0.179
+C (of size 2) 0.181
+C (of size 2) 0.183
+C (of size 2) 0.184
+C (of size 2) 0.186
+C (of size 2) 0.188
+C (of size 2) 0.190
+C (of size 2) 0.192
+C (of size 2) 0.194
+C (of size 2) 0.195
+C (of size 2) 0.197
+C (of size 2) 0.199
+C (of size 2) 0.201
+C (of size 2) 0.203
+C (of size 2) 0.205
+C (of size 2) 0.206
+C (of size 2) 0.208
+C (of size 2) 0.210
+C (of size 2) 0.212
+C (of size 2) 0.214
+C (of size 2) 0.216
+C (of size 2) 0.218
+C (of size 2) 0.219
+C (of size 2) 0.221
+C (of size 2) 0.223
+C (of size 2) 0.225
+C (of size 2) 0.227
+C (of size 2) 0.229
+C (of size 2) 0.230
+C (of size 2) 0.232
+C (of size 2) 0.234
+C (of size 2) 0.236
+C (of size 2) 0.238
+C (of size 2) 0.240
+C (of size 2) 0.241
+C (of size 2) 0.243
+C (of size 2) 0.245
+C (of size 2) 0.247
+C (of size 2) 0.249
+C (of size 2) 0.250
+C (of size 2) 0.252
+C (of size 2) 0.254
+C (of size 2) 0.256
+C (of size 2) 0.258
+C (of size 2) 0.260
+C (of size 2) 0.262
+C (of size 2) 0.263
+C (of size 2) 0.265
+C (of size 2) 0.267
+C (of size 2) 0.269
+C (of size 2) 0.271
+C (of size 2) 0.272
+U (of size 18) 0.281
+C (of size 1) 0.286
+C (of size 2) 0.289
+C (of size 1) 0.292
+U (of size 33) 0.301
+C (of size 1) 0.305
+C (of size 1) 0.309
+C (of size 2) 0.312
+C (of size 2) 0.314
+C (of size 2) 0.316
+C (of size 2) 0.318
+C (of size 2) 0.320
+C (of size 2) 0.322
+C (of size 2) 0.323
+C (of size 2) 0.325
+C (of size 2) 0.327
+C (of size 2) 0.329
+C (of size 1) 0.331
+C (of size 1) 0.333
+setup  :    0.006
+shrink :    0.031
+seed   :    0.032
+block  :    0.047
+check  :    0.113
+total  :    0.334
+block count  :       94
+block per    :  0.00050
+check count  :       94
+check per    :  0.00120
+seed count   :       95
+seed per     :  0.00033
+setup count  :        1
+setup per    :  0.00615
+shrink count :        4
+shrink per   :  0.00771
+delta.shrink.down min : 0.000000
+delta.shrink.down max : 0.000000
+delta.shrink.down avg : 0.000000
+delta.checkA.down min : 0.970978
+delta.checkA.down max : 0.985075
+delta.checkA.down avg : 0.978027
+delta.checkA.up min   : 0.000000
+delta.checkA.up max   : 0.000000
+delta.checkA.up avg   : 0.000000

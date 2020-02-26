@@ -1,0 +1,37 @@
+U (of size 8) 46.743
+U (of size 11) 47.450
+C (of size 1) 48.657
+C (of size 1) 49.644
+C (of size 1) 50.658
+C (of size 1) 51.644
+C (of size 1) 52.619
+U (of size 11) 53.368
+C (of size 3) 54.334
+C (of size 3) 55.357
+C (of size 3) 56.373
+C (of size 3) 57.373
+setup  :    0.005
+shrink :    0.376
+seed   :    1.694
+block  :    2.693
+check  :    6.766
+total  :   57.478
+block count  :       12
+block per    :  0.22441
+check count  :       12
+check per    :  0.56379
+seed count   :       13
+seed per     :  0.13034
+setup count  :        1
+setup per    :  0.00520
+shrink count :        3
+shrink per   :  0.12527
+delta.checkA.down min : 0.999976
+delta.checkA.down max : 0.999985
+delta.checkA.down avg : 0.999980
+delta.checkA.up min   : 0.000000
+delta.checkA.up max   : 0.000000
+delta.checkA.up avg   : 0.000000
+delta.shrink.down min : 0.000000
+delta.shrink.down max : 0.000000
+delta.shrink.down avg : 0.000000

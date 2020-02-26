@@ -1,0 +1,33 @@
+Setting output to C208_FA_UT_3254.cnf.gcnf
+BCE experiment started
+Reading file cnf/C208_FA_UT_3254.cnf
+RGCNF contains 1805 vars, 7334 clauses, 7335 groups, 0 mcses
+Groups info: 7335 groups, 7334 enabled, 1 disabled
+  --completed in 0.01 sec
+Performing top-level BCE
+  detected 6113 removable clauses and 6113 removable groups
+  --completed in 0.20 sec
+Performing dependency-based BCE
+  detected 0 necessary groups and 4292 binary restrictions
+  --completed in 0.08 sec
+Running transitive reduction on binary clauses (initially 4292 binary clauses)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 7334 variables and 4292 edges
+  --completed in 0.00 sec
+Computing SCCs
+  have 7272 SCCs total, of which 7259 of size 1, 6 of size 2, 1 of size 3, 1 of size 4, 3 of size 5, 0 of size 6, 0 of size 7, 0 of size 8, 0 of size 9, 2 of size >=10 (and total size 41)
+  --completed in 0.00 sec
+Shrinking based on SCCs
+Recorded 75 equivalence clauses
+  scc-reduced graph contains 1255 edges
+  --completed in 0.00 sec
+Performing transitive reduction
+  reduced graph contains 666 edges (589 transitive edges removed)
+  --completed in 0.00 sec
+Recorded 741 total clauses
+Completed transitive reduction (final 741 binary clauses)
+  --completed in 0.00 sec
+Writing simplified problem to file C208_FA_UT_3254.cnf.gcnf
+  --completed in 0.05 sec
+BCE experiment finished in 0.35 sec (timed-out: 0)

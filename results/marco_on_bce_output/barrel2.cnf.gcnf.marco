@@ -1,0 +1,158 @@
+U (of size 77) 0.054
+C (of size 1) 0.056
+C (of size 1) 0.057
+C (of size 1) 0.058
+C (of size 1) 0.059
+C (of size 1) 0.060
+C (of size 1) 0.060
+C (of size 1) 0.061
+C (of size 1) 0.062
+C (of size 1) 0.063
+C (of size 1) 0.064
+C (of size 1) 0.065
+C (of size 1) 0.065
+C (of size 1) 0.066
+C (of size 1) 0.066
+C (of size 1) 0.067
+C (of size 1) 0.067
+C (of size 1) 0.067
+C (of size 1) 0.068
+C (of size 1) 0.068
+C (of size 1) 0.069
+C (of size 1) 0.069
+C (of size 1) 0.070
+C (of size 1) 0.070
+C (of size 1) 0.071
+C (of size 1) 0.071
+C (of size 1) 0.071
+C (of size 1) 0.072
+C (of size 1) 0.072
+C (of size 1) 0.073
+C (of size 1) 0.073
+C (of size 1) 0.074
+C (of size 1) 0.074
+C (of size 1) 0.075
+C (of size 1) 0.075
+C (of size 1) 0.075
+C (of size 1) 0.076
+C (of size 1) 0.076
+C (of size 1) 0.077
+C (of size 1) 0.077
+C (of size 1) 0.078
+C (of size 1) 0.078
+C (of size 1) 0.078
+U (of size 78) 0.086
+U (of size 77) 0.095
+C (of size 3) 0.098
+C (of size 3) 0.099
+C (of size 3) 0.101
+C (of size 1) 0.102
+C (of size 1) 0.103
+U (of size 78) 0.113
+C (of size 1) 0.114
+C (of size 3) 0.115
+C (of size 1) 0.116
+C (of size 3) 0.117
+C (of size 1) 0.118
+C (of size 3) 0.119
+C (of size 3) 0.119
+U (of size 78) 0.129
+C (of size 1) 0.130
+C (of size 1) 0.131
+C (of size 1) 0.132
+C (of size 3) 0.133
+C (of size 1) 0.133
+U (of size 78) 0.142
+C (of size 1) 0.143
+C (of size 1) 0.144
+U (of size 77) 0.153
+C (of size 1) 0.154
+C (of size 1) 0.155
+C (of size 1) 0.156
+U (of size 89) 0.166
+C (of size 1) 0.167
+U (of size 89) 0.177
+C (of size 1) 0.179
+C (of size 3) 0.179
+U (of size 89) 0.218
+C (of size 3) 0.219
+C (of size 3) 0.220
+C (of size 3) 0.221
+C (of size 3) 0.222
+C (of size 3) 0.223
+C (of size 3) 0.224
+C (of size 3) 0.224
+C (of size 3) 0.225
+C (of size 3) 0.226
+C (of size 3) 0.227
+C (of size 3) 0.228
+C (of size 3) 0.229
+C (of size 3) 0.230
+C (of size 3) 0.230
+C (of size 3) 0.231
+U (of size 89) 0.241
+U (of size 89) 0.251
+C (of size 3) 0.253
+C (of size 3) 0.254
+C (of size 3) 0.254
+C (of size 3) 0.255
+C (of size 3) 0.256
+C (of size 3) 0.257
+C (of size 3) 0.258
+C (of size 3) 0.259
+U (of size 91) 0.267
+C (of size 3) 0.269
+U (of size 78) 0.278
+C (of size 3) 0.279
+U (of size 89) 0.289
+C (of size 3) 0.290
+C (of size 3) 0.291
+U (of size 91) 0.301
+C (of size 3) 0.302
+C (of size 3) 0.303
+U (of size 89) 0.313
+C (of size 3) 0.314
+C (of size 3) 0.315
+C (of size 3) 0.316
+C (of size 3) 0.317
+C (of size 3) 0.318
+C (of size 3) 0.318
+C (of size 3) 0.319
+C (of size 3) 0.320
+U (of size 89) 0.330
+U (of size 91) 0.340
+U (of size 91) 0.350
+C (of size 3) 0.352
+C (of size 3) 0.353
+U (of size 78) 0.362
+U (of size 91) 0.372
+U (of size 91) 0.383
+U (of size 91) 0.391
+U (of size 91) 0.402
+U (of size 93) 0.412
+U (of size 93) 0.422
+setup  :    0.006
+seed   :    0.019
+block  :    0.042
+check  :    0.053
+shrink :    0.255
+total  :    0.424
+block count  :      133
+block per    :  0.00032
+check count  :      133
+check per    :  0.00040
+seed count   :      134
+seed per     :  0.00014
+setup count  :        1
+setup per    :  0.00572
+shrink count :       27
+shrink per   :  0.00946
+delta.shrink.down min : 0.000000
+delta.shrink.down max : 0.094340
+delta.shrink.down avg : 0.026089
+delta.checkA.up min   : 0.000000
+delta.checkA.up max   : 0.000000
+delta.checkA.up avg   : 0.000000
+delta.checkA.down min : 0.345912
+delta.checkA.down max : 0.515723
+delta.checkA.down avg : 0.415094

@@ -1,0 +1,110 @@
+U (of size 6) 81.142
+U (of size 6) 82.516
+U (of size 6) 83.879
+U (of size 6) 85.293
+C (of size 4) 87.120
+C (of size 4) 89.008
+C (of size 4) 90.979
+C (of size 4) 92.923
+C (of size 4) 94.872
+C (of size 4) 96.791
+C (of size 4) 98.729
+C (of size 4) 100.638
+C (of size 4) 102.571
+C (of size 4) 104.319
+C (of size 4) 106.098
+C (of size 4) 107.846
+C (of size 4) 109.611
+C (of size 4) 111.340
+C (of size 4) 113.095
+C (of size 4) 114.850
+C (of size 4) 116.631
+C (of size 4) 118.382
+C (of size 4) 120.126
+C (of size 4) 121.863
+C (of size 4) 123.627
+C (of size 4) 125.376
+C (of size 4) 127.135
+C (of size 4) 128.886
+C (of size 4) 130.663
+C (of size 4) 132.407
+C (of size 4) 134.173
+C (of size 4) 135.924
+C (of size 4) 137.694
+C (of size 4) 139.440
+C (of size 4) 141.218
+C (of size 4) 142.957
+C (of size 4) 144.733
+C (of size 4) 146.481
+C (of size 4) 148.232
+C (of size 4) 149.985
+C (of size 4) 151.838
+C (of size 4) 153.673
+C (of size 4) 155.520
+C (of size 4) 157.341
+C (of size 4) 159.095
+C (of size 4) 160.753
+C (of size 4) 162.459
+C (of size 4) 164.147
+C (of size 4) 165.837
+C (of size 4) 167.506
+C (of size 4) 169.218
+C (of size 4) 170.902
+C (of size 4) 172.605
+C (of size 4) 174.296
+C (of size 4) 176.015
+C (of size 4) 177.699
+C (of size 4) 179.407
+C (of size 4) 181.098
+C (of size 4) 182.809
+C (of size 4) 184.504
+C (of size 4) 186.216
+C (of size 4) 187.897
+C (of size 4) 189.601
+C (of size 4) 191.268
+C (of size 4) 192.935
+C (of size 4) 194.621
+C (of size 4) 196.329
+C (of size 4) 198.019
+C (of size 4) 199.728
+C (of size 4) 201.412
+C (of size 4) 203.098
+C (of size 4) 204.748
+C (of size 4) 206.456
+C (of size 4) 208.141
+C (of size 4) 209.859
+C (of size 4) 211.564
+C (of size 4) 213.272
+C (of size 4) 214.979
+C (of size 4) 216.680
+C (of size 4) 218.366
+C (of size 4) 220.071
+C (of size 4) 221.763
+C (of size 4) 223.485
+C (of size 4) 225.185
+C (of size 4) 226.889
+setup  :    0.005
+shrink :    0.838
+seed   :   22.313
+block  :   40.226
+check  :   83.894
+total  :  227.041
+block count  :       85
+block per    :  0.47325
+check count  :       85
+check per    :  0.98698
+seed count   :       86
+seed per     :  0.25945
+setup count  :        1
+setup per    :  0.00530
+shrink count :        4
+shrink per   :  0.20949
+delta.shrink.down min : 0.000000
+delta.shrink.down max : 0.000000
+delta.shrink.down avg : 0.000000
+delta.checkA.up min   : 0.000000
+delta.checkA.up max   : 0.000000
+delta.checkA.up avg   : 0.000000
+delta.checkA.down min : 0.999991
+delta.checkA.down max : 0.999994
+delta.checkA.down avg : 0.999992

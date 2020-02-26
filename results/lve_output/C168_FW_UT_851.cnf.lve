@@ -1,0 +1,39 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+RGCNF contains 1804 vars, 7491 clauses, 7492 groups
+*** After reading solver contains 9295 variables and 7491 clauses
+|  Number of variables:          9295                                         |
+|  Number of clauses:            7491                                         |
+|  Parse time:                   0.01 s                                       |
+*** Calling elimination
+*** Calling eliminate with grow = 0 and clause_lim = 20
+|  Eliminated clauses:           4754                                         |
+*** After eliminating: 9295 variables, 3716 clauses
+|  Simplification time:          0.01 s                                       |
+|                                                                             |
+*** After extracting labels, have 3716 labeled clauses
+*** We have 0 necessary and 3758 redundant labels
+CURRENT ANALYSIS TIME:   0.00
+*** We have 0 necessary, 3758 redundant, and 346 binary restriction clauses
+Running transitive reduction on binary clauses (only equivalences = 0)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 7378 variables and 346 edges
+  --completed in 0.00 sec
+Computing SCCs
+  have 7364 SCCs total, of which 7358 of size 1, 3 of size 2, 0 of size 3, 1 of size 4, 2 of size 5, 0 of size 6, 0 of size 7, 0 of size 8, 0 of size 9, 0 of size >=10 (and total size 0)
+  --completed in 0.00 sec
+Shrinking based on SCCs
+Recorded 20 equivalence clauses
+  scc-reduced graph contains 205 edges
+  --completed in 0.00 sec
+Performing transitive reduction
+  reduced graph contains 200 edges (5 transitive edges removed)
+  --completed in 0.00 sec
+Recorded 220 total clauses
+FINAL: *** We have 0 necessary, 3758 redundant, and 220 binary restriction clauses
+TOTAL ANALYSIS TIME:   0.01
+|  Analyze time:          0.01 s                                       |
+==============================[ Writing GCNF ]===============================
+|  Write time:          0.01 s                                       |

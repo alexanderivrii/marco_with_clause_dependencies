@@ -1,0 +1,33 @@
+Setting output to dlx2_aa.cnf.gcnf
+BCE experiment started
+Reading file cnf/dlx2_aa.cnf
+RGCNF contains 490 vars, 2804 clauses, 2805 groups, 0 mcses
+Groups info: 2805 groups, 2804 enabled, 1 disabled
+  --completed in 0.01 sec
+Performing top-level BCE
+  detected 1169 removable clauses and 1169 removable groups
+  --completed in 0.03 sec
+Performing dependency-based BCE
+  detected 2 necessary groups and 3469 binary restrictions
+  --completed in 0.14 sec
+Running transitive reduction on binary clauses (initially 3469 binary clauses)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 2800 variables and 3469 edges
+  --completed in 0.00 sec
+Computing SCCs
+  have 2547 SCCs total, of which 2315 of size 1, 213 of size 2, 17 of size 3, 2 of size 4, 0 of size 5, 0 of size 6, 0 of size 7, 0 of size 8, 0 of size 9, 0 of size >=10 (and total size 0)
+  --completed in 0.00 sec
+Shrinking based on SCCs
+Recorded 485 equivalence clauses
+  scc-reduced graph contains 1524 edges
+  --completed in 0.00 sec
+Performing transitive reduction
+  reduced graph contains 1049 edges (475 transitive edges removed)
+  --completed in 0.00 sec
+Recorded 1534 total clauses
+Completed transitive reduction (final 1534 binary clauses)
+  --completed in 0.00 sec
+Writing simplified problem to file dlx2_aa.cnf.gcnf
+  --completed in 0.02 sec
+BCE experiment finished in 0.20 sec (timed-out: 0)

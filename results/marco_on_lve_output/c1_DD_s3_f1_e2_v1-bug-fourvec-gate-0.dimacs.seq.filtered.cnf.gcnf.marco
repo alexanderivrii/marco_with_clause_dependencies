@@ -1,0 +1,30 @@
+U (of size 6) 80.235
+U (of size 6) 81.718
+U (of size 6) 83.178
+U (of size 6) 84.650
+C (of size 4) 86.579
+setup  :    0.006
+block  :    0.559
+shrink :    0.756
+seed   :    2.015
+check  :    4.487
+total  :   86.770
+block count  :        5
+block per    :  0.11178
+check count  :        5
+check per    :  0.89749
+seed count   :        6
+seed per     :  0.33591
+setup count  :        1
+setup per    :  0.00581
+shrink count :        4
+shrink per   :  0.18889
+delta.checkA.up min   : 0.000008
+delta.checkA.up max   : 0.000008
+delta.checkA.up avg   : 0.000008
+delta.shrink.down min : 0.000000
+delta.shrink.down max : 0.000000
+delta.shrink.down avg : 0.000000
+delta.checkA.down min : 0.999985
+delta.checkA.down max : 0.999994
+delta.checkA.down avg : 0.999989

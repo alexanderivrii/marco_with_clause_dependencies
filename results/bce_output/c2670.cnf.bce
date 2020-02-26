@@ -1,0 +1,33 @@
+Setting output to c2670.cnf.gcnf
+BCE experiment started
+Reading file cnf/c2670.cnf
+RGCNF contains 2627 vars, 6756 clauses, 6757 groups, 0 mcses
+Groups info: 6757 groups, 6756 enabled, 1 disabled
+  --completed in 0.01 sec
+Performing top-level BCE
+  detected 443 removable clauses and 443 removable groups
+  --completed in 0.01 sec
+Performing dependency-based BCE
+  detected 65 necessary groups and 26857 binary restrictions
+  --completed in 0.14 sec
+Running transitive reduction on binary clauses (initially 26857 binary clauses)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 6688 variables and 26857 edges
+  --completed in 0.00 sec
+Computing SCCs
+  have 4576 SCCs total, of which 3237 of size 1, 716 of size 2, 582 of size 3, 20 of size 4, 10 of size 5, 5 of size 6, 1 of size 7, 2 of size 8, 0 of size 9, 3 of size >=10 (and total size 90)
+  --completed in 0.00 sec
+Shrinking based on SCCs
+Recorded 3451 equivalence clauses
+  scc-reduced graph contains 3796 edges
+  --completed in 0.00 sec
+Performing transitive reduction
+  reduced graph contains 2544 edges (1252 transitive edges removed)
+  --completed in 0.00 sec
+Recorded 5995 total clauses
+Completed transitive reduction (final 5995 binary clauses)
+  --completed in 0.01 sec
+Writing simplified problem to file c2670.cnf.gcnf
+  --completed in 0.05 sec
+BCE experiment finished in 0.22 sec (timed-out: 0)

@@ -1,0 +1,33 @@
+Setting output to longmult0.cnf.gcnf
+BCE experiment started
+Reading file cnf/longmult0.cnf
+RGCNF contains 437 vars, 1206 clauses, 1207 groups, 0 mcses
+Groups info: 1207 groups, 1206 enabled, 1 disabled
+  --completed in 0.00 sec
+Performing top-level BCE
+  detected 1155 removable clauses and 1155 removable groups
+  --completed in 0.00 sec
+Performing dependency-based BCE
+  detected 2 necessary groups and 224 binary restrictions
+  --completed in 0.00 sec
+Running transitive reduction on binary clauses (initially 224 binary clauses)
+ I AM IN REDUCE_BIN_CLAUSES
+Constructing original graph
+  --contains 1206 variables and 224 edges
+  --completed in 0.00 sec
+Computing SCCs
+  have 1187 SCCs total, of which 1178 of size 1, 5 of size 2, 2 of size 3, 1 of size 4, 0 of size 5, 0 of size 6, 0 of size 7, 1 of size 8, 0 of size 9, 0 of size >=10 (and total size 0)
+  --completed in 0.00 sec
+Shrinking based on SCCs
+Recorded 28 equivalence clauses
+  scc-reduced graph contains 24 edges
+  --completed in 0.00 sec
+Performing transitive reduction
+  reduced graph contains 22 edges (2 transitive edges removed)
+  --completed in 0.00 sec
+Recorded 50 total clauses
+Completed transitive reduction (final 50 binary clauses)
+  --completed in 0.00 sec
+Writing simplified problem to file longmult0.cnf.gcnf
+  --completed in 0.01 sec
+BCE experiment finished in 0.02 sec (timed-out: 0)
