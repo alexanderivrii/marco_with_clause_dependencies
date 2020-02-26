@@ -23,32 +23,19 @@ On the other hand, marco_with_restrictions will treat such lines differently fro
 
 Here is a longer example:
 
-p gcnf 3 6 6
-
-{1} 1 0
-
-{2} -1 0
-
-{3} 2 0
-
-{4} -2 0
-
-{5} 3 0
-
-{6} -3 0
-
-c restrict -2 1 0
-
-c restrict -1 2 0
-
-c restrict -4 3 0
-
-c restrict -3 4 0
-
-c restrict -6 5 0
-
-c restrict -5 6 0
-
+p gcnf 3 6 6 <br/>
+{1} 1 0 <br/>
+{2} -1 0 <br/>
+{3} 2 0 <br/>
+{4} -2 0 <br/>
+{5} 3 0 <br/>
+{6} -3 0 <br/>
+c restrict -2 1 0 <br/>
+c restrict -1 2 0 <br/>
+c restrict -4 3 0 <br/>
+c restrict -3 4 0 <br/>
+c restrict -6 5 0 <br/>
+c restrict -5 6 0 <br/>
 
 The first 7 lines are in the usual GCNF format. Each "c restrict" line specifies restriction between groups.
 
@@ -162,7 +149,13 @@ bce_restrict:
         *bce_restrict/bcerestrict tests/ssa2670-129.cnf -bce-only 1 -redundant 1 -output aaa1*
 ---------------------------------------------------------------------------
 
+---------------------------------------------------------------------------
+## 5. benchmarks
+---------------------------------------------------------------------------
+cnf: the original 11 benchmarks from the MUS track of the 2011 SAT competition
 
+bce: the original 11 benchmrks together with restriction clauses found by bce_restrict
 
+lve: the original 11 benchmrks together with restriction clauses found by lve_restrict
 
 
