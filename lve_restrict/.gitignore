@@ -1,0 +1,4 @@
+*.or
+lverestrict
+simp/depend.mk
+simp/minisat_release
