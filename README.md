@@ -7,6 +7,8 @@ This is not the most elegant or the most efficient code, and the output is a mes
 
 We are submitting a paper to SAT'2020. So we also include benchmarks and experimental results here.
 
+UPDATE: we are currently running experiments on random MUS benchmarks by Luo, ref. https://github.com/luojie-sklsde/MUS_Random_Benchmarks.
+results_NEW contains some preliminary experimental results on the benchmarks from f100 folder.
 ---------------------------------------------------------------------------
 
 
@@ -175,3 +177,7 @@ Located in results/
 *marco_on_bce_output*: output of *marco_with_restrictions* when running on benchmarks from *bce*
 
 *marco_on_lve_output*: output of *marco_with_restrictions* when running on benchmarks from *lve*
+
+
+UPDATE: we are running additional experiments on the MUS_Random_Benchmarks suite by Luo, ref. https://github.com/luojie-sklsde/MUS_Random_Benchmarks.
+We would like to thank an (anonymous) reviewer for pointing us to these benchmarks. These new results are located in results_NEW.
